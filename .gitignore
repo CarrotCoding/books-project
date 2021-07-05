@@ -1,0 +1,6 @@
+env
+.env
+.DS_Store
+project_requirements
+
+/__pycache__
