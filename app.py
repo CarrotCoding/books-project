@@ -1,3 +1,5 @@
+from models import (Base, session, Book, engine)
+
 # import models
 # main menu
     # add, search, analysis, exit, view
@@ -8,3 +10,7 @@
     # data cleaning
 # loop runs program
     # when user exits it stops
+
+
+if __name__ == '__main__':
+    Base.metadata.create_all(engine)
